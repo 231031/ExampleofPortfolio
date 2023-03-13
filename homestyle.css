@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Amiri:wght@400;700&family=Athiti&family=Kalam:wght@300;400;700&family=Kanit:wght@100;300;400;700&family=Merriweather:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f7ede3;
+    font-family: 'Merriweather', serif;
+}
+
+nav
+{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(214, 230, 244);
+    border-radius: 0 0 1rem 1rem;
+    overflow: hidden;
+    box-shadow: 0 0 0.5rem 0.5rem rgba(193, 190, 190, 0.601);
+}
+
+nav a
+{
+    text-decoration: none;
+    color: darkblue;
+}
+
+#home
+{
+    color: brown;
+}
+
+.profile
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 18rem;
+    height: 18rem;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    background-color: azure;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+
+#profileImg
+{
+    width: 35rem;
+    height: 36rem;
+}
+
+.information 
+{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.information h2
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+#iconhand
+{
+    margin-left: 0.6rem;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.information h3
+{
+    margin-bottom: 1rem;
+}
+.information h4
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+.information img
+{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.6rem;
+}
