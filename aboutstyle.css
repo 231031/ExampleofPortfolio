@@ -30,6 +30,11 @@ nav a
     color: darkblue;
 }
 
+nav a:hover
+{
+    color:  darkcyan;
+}
+
 #aboutme
 {
     color: brown;
